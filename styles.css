@@ -1,0 +1,169 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+/*div {
+  background-color: #EAF6F6;
+}*/
+/*div.top-container{
+  line-height: 2;
+}*/
+h1 {
+  margin-top: 0;
+  font-family: 'Great Vibes', cursive;
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2.5em;
+  padding-top: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: lightgrey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+
+
+/**********************************Class Tag*******************************/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: white;
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 280px;
+}
+
+.btn {
+  color: #11999E;
+
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 30px;
+}
+
+.top-para {
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-html {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.skill-css {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.profile-image {
+  width: 12%;
+  margin-top: 60px;
+}
+
+.para {
+  width: 30%;
+  margin: auto;
+}
+
+.Second-para {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+/********************************BUTTON CSS**********************************/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
